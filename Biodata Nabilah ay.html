@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata Nabilah Ayu C</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #BBFBFF, #f9f0ff);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile-container {
+            background: white;
+            border-radius: 20px;
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .profile-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(255,107,157,0.4);
+            margin: 0 auto 20px;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        .profile-pic:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(255,107,157,0.6);
+        }
+        h1 {
+            color: #e75480;
+            margin: 10px 0 5px;
+            font-size: 28px;
+        }
+        .bio-details {
+            text-align: left;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        .bio-details p {
+            margin: 12px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+        .bio-details p::before {
+            content: '•';
+            color: #ff6b9d;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+        .social-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b9d, #e1306c);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 10px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(225,48,108,0.4);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(225,48,108,0.6);
+        }
+        .ig-username {
+            color: #e75480;
+            font-weight: 600;
+            margin-bottom: 20px;
+            display: block;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Foto dari Imgur -->
+        <a href="https://www.instagram.com/bingzzbingz?igsh=MXNtNjlzbm5wYXN1bQ==" target="_blank">
+            <img src="https://i.imgur.com/THKN4OX.jpg" 
+                 class="profile-pic" 
+                 alt="Foto Profil Nabilah"
+                 title="Klik untuk ke Instagram">
+        </a>
+        
+        <h1>Nabilah Ayu C</h1>
+        <span class="ig-username">@bingzzbingz</span>
+        
+        <div class="bio-details">
+            <p>🎂 Malang, 12 Agustus 2009</p>
+            <p>🏠 Jl. Neocity No. 127</p>
+            <p>🎵 Hobi: Musik, Game, Manhwa, K-Drama</p>
+            <p>⚕️ Cita-cita: Dokter</p>
+            <p>👩‍🎓 Kelas: X-A Farmasi</p>
+        </div>
+        
+        <a href="https://www.instagram.com/bingzzbingz?igsh=MXNtNjlzbm5wYXN1bQ==" 
+           class="social-btn" 
+           target="_blank">
+           <span style="font-size: 18px;">👉</span> Follow Instagram 
+        </a>
+    </div>
+</body>
+</html>
